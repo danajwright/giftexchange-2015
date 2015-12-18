@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.gift-button').click(function(){
-
+    event.preventDefault();
     // figure out if we're open or closed
     $el = $(this).parent().parent().children('.interests');
     $button = $(this)
