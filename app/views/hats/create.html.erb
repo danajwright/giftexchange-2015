@@ -1,0 +1,3 @@
+<% @match_list.each do |match| %>
+  <%= match.secret_santa.full_name %> =&gt; <%= match.member.full_name %> [Interests: <%= match.member.interests %>]<br>
+<% end %>
